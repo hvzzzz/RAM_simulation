@@ -27,8 +27,11 @@ RUN apt-get update && apt-get install -y \
     ros-${ROS_DISTRO}-dynamixel-sdk \
     ros-${ROS_DISTRO}-turtlebot3-msgs \
     ros-${ROS_DISTRO}-turtlebot3
-
-RUN apt-get update && apt-get install python3-catkin-tools -y
+# install utils
+RUN apt-get update && apt-get install  -y \
+    && python3-catkin-tools \
+    && tmux  \
+    && vim 
    
 RUN mkdir -p ~/catkin_ws/src \
  && cd ~/catkin_ws/src/ \ 
@@ -41,9 +44,21 @@ RUN mkdir -p ~/catkin_ws/src \
 RUN . /opt/ros/$ROS_DISTRO/setup.sh && \ 
     cd ~/catkin_ws && catkin build && \
     echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc && \ 
-    /bin/bash -c "source /root/catkin_ws/devel/setup.bash"  
-RUN export TURTLEBOT3_MODEL=burger
+    /bin/bash -c "source /root/catkin_ws/devel/setup.bash"  && \
+    echo "export TURTLEBOT3_MODEL=waffle" >> ~/.bashrc
+
+
+#SHELL ["/bin/bash", "-c"]
+
+#RUN echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc && \
+#    echo "export TURTLEBOT3_MODEL=waffle" >> ~/.bashrc
+#RUN apt-get update && apt-get install --reinstall xserver-xorg-video-intel xserver-xorg-core -y \
+#    &&  dpkg-reconfigure xserver-xorg -31
+
+#RUN export TURTLEBOT3_MODEL=burger
+#CMD ["export","TURTLEBOT3_MODEL=burger"]
       # launch ros package
+#CMD [ "/ros_entrypoint.sh",\ "roslaunch", "turtlebot3_gazebo", "turtlebot3_empty_world.launch"]
 #CMD ["ros2", "launch", "demo_nodes_cpp", "talker_listener.launch.py"]
 #CMD [ "roslaunch"," turtlebot3_gazebo","turtlebot3_empty_world.launch" ] 
 #CMD ["roslaunch","turtlebot3_fake","turtlebot3_fake.launch"]

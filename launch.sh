@@ -15,5 +15,5 @@ docker run --privileged --rm -it \
            --env=TERM=xterm-256color \
            --env=QT_X11_NO_MITSHM=1 \
            --net=host \
-           nav_stack \
+           nav_stack_husky \
            bash

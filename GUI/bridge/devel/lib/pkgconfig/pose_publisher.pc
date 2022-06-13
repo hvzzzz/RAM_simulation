@@ -1,0 +1,1 @@
+/home/han4n/RAM/RAM_simulation/GUI/bridge/devel/.private/pose_publisher/lib/pkgconfig/pose_publisher.pc

@@ -1,1 +1,0 @@
-/home/han4n/RAM/RAM_simulation/GUI/bridge/devel/.private/gui_bridge/share/gui_bridge/cmake/gui_bridgeConfig-version.cmake

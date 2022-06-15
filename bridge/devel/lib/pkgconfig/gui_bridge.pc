@@ -1,0 +1,1 @@
+/home/han4n/RAM/RAM_simulation/bridge/devel/.private/gui_bridge/lib/pkgconfig/gui_bridge.pc

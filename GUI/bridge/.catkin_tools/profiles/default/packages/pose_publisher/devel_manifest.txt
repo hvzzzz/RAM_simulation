@@ -1,6 +1,0 @@
-pose_publisher
-/home/han4n/RAM/RAM_simulation/GUI/bridge/devel/.private/pose_publisher/cmake.lock /home/han4n/RAM/RAM_simulation/GUI/bridge/devel/./cmake.lock
-/home/han4n/RAM/RAM_simulation/GUI/bridge/devel/.private/pose_publisher/share/pose_publisher/cmake/pose_publisherConfig.cmake /home/han4n/RAM/RAM_simulation/GUI/bridge/devel/share/pose_publisher/cmake/pose_publisherConfig.cmake
-/home/han4n/RAM/RAM_simulation/GUI/bridge/devel/.private/pose_publisher/share/pose_publisher/cmake/pose_publisherConfig-version.cmake /home/han4n/RAM/RAM_simulation/GUI/bridge/devel/share/pose_publisher/cmake/pose_publisherConfig-version.cmake
-/home/han4n/RAM/RAM_simulation/GUI/bridge/devel/.private/pose_publisher/lib/pose_publisher/pose_publisher /home/han4n/RAM/RAM_simulation/GUI/bridge/devel/lib/pose_publisher/pose_publisher
-/home/han4n/RAM/RAM_simulation/GUI/bridge/devel/.private/pose_publisher/lib/pkgconfig/pose_publisher.pc /home/han4n/RAM/RAM_simulation/GUI/bridge/devel/lib/pkgconfig/pose_publisher.pc

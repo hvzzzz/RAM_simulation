@@ -1,0 +1,6 @@
+devel_space: /home/han4n/RAM/RAM_simulation/bridge/devel
+install: false
+install_space: /home/han4n/RAM/RAM_simulation/bridge/install
+profile: default
+source_space: /home/han4n/RAM/RAM_simulation/bridge/src
+workspace: /home/han4n/RAM/RAM_simulation/bridge

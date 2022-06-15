@@ -1,1 +1,0 @@
-/home/han4n/RAM/RAM_simulation/GUI/bridge/devel/.private/catkin_tools_prebuild/setup.sh

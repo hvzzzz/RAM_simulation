@@ -1,0 +1,1 @@
+/home/han4n/RAM/RAM_simulation/bridge/devel/.private/pose_publisher/share/pose_publisher/cmake/pose_publisherConfig-version.cmake

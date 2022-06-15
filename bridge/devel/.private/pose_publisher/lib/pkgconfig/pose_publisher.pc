@@ -1,0 +1,8 @@
+prefix=/home/han4n/RAM/RAM_simulation/bridge/devel/.private/pose_publisher
+
+Name: pose_publisher
+Description: Description of pose_publisher
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

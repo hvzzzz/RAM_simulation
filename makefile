@@ -9,5 +9,7 @@ install:
       ros-${ROS_DISTRO}-rosbridge-server \
       ros-${ROS_DISTRO}-rviz -y \
 	  python3-catkin-tools
+	sudo apt install nodejs
+	sudo apt install npm
 build:
 	cd bridge/ && catkin build

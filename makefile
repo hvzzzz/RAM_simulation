@@ -1,4 +1,4 @@
-build:
+install:
 	sudo apt-get install ros-${ROS_DISTRO}-turtlebot3 \
 	  ros-${ROS_DISTRO}-turtlebot3 \
       ros-${ROS_DISTRO}-turtlebot3-gazebo \

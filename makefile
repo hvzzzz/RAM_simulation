@@ -13,4 +13,4 @@ install:
 	sudo apt install npm -y
 build:
 	cd bridge/ && catkin clean -y && catkin build
-	cd robot-ram/ && sudo npm start  &&sudo npm install react_scripts --save
+	cd robot-ram/ && sudo npm install react-scripts --save

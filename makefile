@@ -8,8 +8,8 @@ install:
       ros-${ROS_DISTRO}-turtlebot3-teleop \
       ros-${ROS_DISTRO}-rosbridge-server \
       ros-${ROS_DISTRO}-rviz -y \
-	  python3-catkin-tools
-	sudo apt install nodejs
-	sudo apt install npm
+	  python3-catkin-tools -y
+	sudo apt install nodejs -y
+	sudo apt install npm -y
 build:
 	cd bridge/ && catkin build

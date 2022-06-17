@@ -8,6 +8,6 @@ install:
       ros-${ROS_DISTRO}-turtlebot3-teleop \
       ros-${ROS_DISTRO}-rosbridge-server \
       ros-${ROS_DISTRO}-rviz -y \
-	sudo apt-get install python3-catkin-tools -y
+	  python3-catkin-tools
 build:
 	cd bridge/ && catkin build

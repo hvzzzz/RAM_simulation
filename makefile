@@ -12,5 +12,9 @@ install:
 	sudo apt install nodejs -y
 	sudo apt install npm -y
 build:
-	cd bridge/ && catkin clean -y && catkin build
+	cd bridge/ && catkin clean -y && catkin build && source devel/setup.bash
 	cd robot-ram/ && sudo npm install react-scripts --save
+run_robot:
+	roslaunch gui_bridge prueba_web.launch
+run_gui:
+	cd robot-ram/ && sudo npm start

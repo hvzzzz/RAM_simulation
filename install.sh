@@ -1,3 +1,3 @@
 make build
 
-source ${HOME}/RAM/RAM_simulation/bride/devel/setup.bash
+source ${HOME}/RAM/RAM_simulation/bridge/devel/setup.bash

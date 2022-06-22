@@ -11,6 +11,7 @@ install:
 	  python3-catkin-tools -y
 	sudo apt install nodejs -y
 	sudo apt install npm -y
+SHELL := /bin/bash
 build:
 	cd bridge/ && catkin clean -y && catkin build
     source devel/setup.bash

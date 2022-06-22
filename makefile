@@ -14,7 +14,3 @@ install:
 build:
 	cd bridge/ && catkin clean -y && catkin build
 	cd robot-ram/ && sudo npm install react-scripts --save
-run_robot:
-	roslaunch gui_bridge prueba_web.launch
-run_gui:
-	cd robot-ram/ && sudo npm start

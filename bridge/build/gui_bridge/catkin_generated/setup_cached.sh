@@ -9,5 +9,4 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/han4n/RAM/RAM_simulation/bridge/devel/.private/gui_bridge:$CMAKE_PREFIX_PATH"
 export PWD='/home/han4n/RAM/RAM_simulation/bridge/build/gui_bridge'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/han4n/RAM/RAM_simulation/bridge/devel/.private/gui_bridge/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/han4n/RAM/RAM_simulation/bridge/src/gui_bridge:$ROS_PACKAGE_PATH"

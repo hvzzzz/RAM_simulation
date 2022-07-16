@@ -1,4 +1,12 @@
+make[1]: Entering directory '/home/han4n/RAM/RAM_simulation/bridge/build/pose_publisher'
+make[2]: Entering directory '/home/han4n/RAM/RAM_simulation/bridge/build/pose_publisher'
+make[3]: Entering directory '/home/han4n/RAM/RAM_simulation/bridge/build/pose_publisher'
 [35m[1mScanning dependencies of target pose_publisher[0m
+make[3]: Leaving directory '/home/han4n/RAM/RAM_simulation/bridge/build/pose_publisher'
+make[3]: Entering directory '/home/han4n/RAM/RAM_simulation/bridge/build/pose_publisher'
 [ 50%] [32mBuilding CXX object CMakeFiles/pose_publisher.dir/src/pose_publisher.cpp.o[0m
 [100%] [32m[1mLinking CXX executable /home/han4n/RAM/RAM_simulation/bridge/devel/.private/pose_publisher/lib/pose_publisher/pose_publisher[0m
+make[3]: Leaving directory '/home/han4n/RAM/RAM_simulation/bridge/build/pose_publisher'
 [100%] Built target pose_publisher
+make[2]: Leaving directory '/home/han4n/RAM/RAM_simulation/bridge/build/pose_publisher'
+make[1]: Leaving directory '/home/han4n/RAM/RAM_simulation/bridge/build/pose_publisher'

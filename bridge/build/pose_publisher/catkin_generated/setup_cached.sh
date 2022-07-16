@@ -9,5 +9,4 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/han4n/RAM/RAM_simulation/bridge/devel/.private/pose_publisher:$CMAKE_PREFIX_PATH"
 export PWD='/home/han4n/RAM/RAM_simulation/bridge/build/pose_publisher'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/han4n/RAM/RAM_simulation/bridge/devel/.private/pose_publisher/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/han4n/RAM/RAM_simulation/bridge/src/pose_publisher:$ROS_PACKAGE_PATH"

@@ -3,7 +3,9 @@
 #+DATE: 2022
 #+options: toc:nil
 
-\maketitle
-
 Este repositorio contiene los scripts para ejecutar el demo del navigation stack usando Turtlebot3 y ROS(Robot Operating System), además de ello también contiene una interfaz gráfica para el control del robot desde una red local.
+
+* Dependencias 
+** ROS
+La versión de ros utilizada es ROS Melodic esta se puede instalar siguiendo las instrucciones del siguiente enlace [[http://wiki.ros.org/melodic/Installation/Ubuntu][ROS Melodic]].
 

@@ -1,2 +1,6 @@
-# RAM_simulation
-Set up
+#+TITLE: RAM(Robot de Afecciones Múltiples)-Simulation
+#+AUTHOR: Hanan Quispe
+#+DATE: 2022
+#+options: toc:nil
+
+\maketitle

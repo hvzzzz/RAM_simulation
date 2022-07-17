@@ -16,5 +16,17 @@ Estas se instalan usando
 #+begin_src bash
   bash install.sh
 #+end_src
+* Configuración de la Interfaz
+La simulación se ejecuta en dos computadoras, en una de ellas se ejecuta ROS con la simulación de Turtlebot3 y en la segunda se ejecuta la interfaz de control. 
+
 * Ejecución del Simulador
+La simulación se ejecuta en dos computadoras, en una de ellas se ejecuta ROS con la simulación de Turtlebot3 y en la segunda se ejecuta la interfaz de control.
+** Inicialización de la Simulación de Turtlebot3
+#+begin_src bash
+  bash run_robot.sh
+#+end_src
+** Inicialización de la Interfaz de Control
+#+begin_src bash
+  bash run_gui.sh
+#+end_src
 

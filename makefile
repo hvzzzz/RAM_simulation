@@ -11,6 +11,7 @@ install:
 	  python3-catkin-tools -y
 	sudo apt install nodejs -y
 	sudo apt install npm -y
+	sudo apt-get install -y net-tools
 build:
 	cd bridge/ && catkin clean -y && catkin build
 	cd robot-ram/ && sudo npm install react-scripts --save

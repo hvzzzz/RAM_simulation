@@ -1,0 +1,48 @@
+% Created 2022-07-17 Tun 12:16
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Hanan Quispe}
+\date{2022}
+\title{RAM(Robot de Afecciones Múltiples)-Simulation}
+\hypersetup{
+ pdfauthor={Hanan Quispe},
+ pdftitle={RAM(Robot de Afecciones Múltiples)-Simulation},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 27.2.50 (Org mode 9.5.4)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+Este repositorio contiene los scripts para ejecutar el demo del navigation stack usando Turtlebot3 y ROS(Robot Operating System), además de ello también contiene una interfaz gráfica para el control del robot desde una red local.
+
+\section{Dependencias}
+\label{sec:org683f4b4}
+\subsection{ROS}
+\label{sec:orgad24d42}
+La versión de ros utilizada es ROS Melodic esta se puede instalar siguiendo las instrucciones del siguiente enlace \href{http://wiki.ros.org/melodic/Installation/Ubuntu}{ROS Melodic}.
+\subsection{Create React App}
+\label{sec:orgf81c8e5}
+Referirse a \href{https://github.com/facebook/create-react-app}{Create React App} para instalar las dependencias correspondientes.
+
+\subsection{Dependencias Adicionales}
+\label{sec:orga8c49e3}
+Estas se instalan usando 
+\begin{verbatim}
+bash install.sh
+\end{verbatim}
+\section{Ejecución del Simulador}
+\label{sec:org6945fc5}
+La simulación se ejecuta en dos computadoras, en una de ellas se ejecuta ROS con la simulacion de Turtlebot3 y en la segunda se ejecuta la interfaz de control.
+\end{document}

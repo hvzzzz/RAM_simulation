@@ -8,4 +8,13 @@ Este repositorio contiene los scripts para ejecutar el demo del navigation stack
 * Dependencias 
 ** ROS
 La versión de ros utilizada es ROS Melodic esta se puede instalar siguiendo las instrucciones del siguiente enlace [[http://wiki.ros.org/melodic/Installation/Ubuntu][ROS Melodic]].
+** Create React App
+Referirse a [[https://github.com/facebook/create-react-app][Create React App]] para instalar las dependencias correspondientes.
+
+** Dependencias Adicionales
+Estas se instalan usando 
+#+begin_src bash
+  bash install.sh
+#+end_src
+* Ejecución del Simulador
 
